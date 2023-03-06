@@ -5,14 +5,18 @@
   "description": "This is an Electron-based desktop application that displays news from Twitter",
   "main": "src/main.js",
   "scripts": {
-    "shoro": "electron ."
+    "shoro": "electron .",
+    "lint": "eslint ."
   },
   "keywords": [],
-  "author": {
-    "name": "Behnam Amiri"
-  },
+  "author": "Behnam Amiri",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^23.1.2"
-  }
+    "@typescript-eslint/eslint-plugin": "^5.54.1",
+    "@typescript-eslint/parser": "^5.54.1",
+    "electron": "^23.1.2",
+    "eslint": "^8.35.0",
+    "eslint-plugin-react": "^7.32.2"
+  },
+  "repository": "https://github.com/Behnam4/HashNews.git"
 }
