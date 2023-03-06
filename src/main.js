@@ -7,11 +7,11 @@ const createWindow = () => {
     backgroundColor: '#1F000E',
     width: 800,
     height: 600
-  })
+  });
 
   win.loadFile('main.html');
-}
+};
 
 app.whenReady().then(() => {
-  createWindow()
+  createWindow();
 });
